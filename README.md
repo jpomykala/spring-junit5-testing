@@ -11,4 +11,7 @@ Spring Boot version `2.1.1`
 Application won't run unles you provide proper database details in `application.properties`. During tests application uses H2 database.
 
 ### Running tests
+Just run in terminal:
 `mvn clean test`
+
+In-memory database is used during tests.
